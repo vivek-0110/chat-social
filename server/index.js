@@ -18,7 +18,7 @@ const server=http.createServer(app);
 
 const io= socketIO(server);
 
-// let numConnectedUsers = 0;
+
 
 io.on("connection",(socket)=>{
     // numConnectedUsers++;
